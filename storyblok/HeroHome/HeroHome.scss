@@ -1,0 +1,47 @@
+
+  .container {
+    text-align: center;
+  }
+
+  .Hero {
+    color: $color-headline;
+    font-family: 'Leaguespartan', Helvetica, Arial, sans-serif;
+
+    &-Headline {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      text-align: center;
+
+      @media (min-width: $breakpoint-tablet-horizontal) {
+        font-size: 7.31rem;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-JobText {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+
+      @media (min-width: $breakpoint-tablet-horizontal) {
+        font-size: 2.99rem;
+      }
+    }
+
+    &-IntroText {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 35px auto;
+      max-width: 1090px;
+
+      @media (min-width: $breakpoint-tablet-horizontal) {
+        font-size: 3.06rem;
+        line-height: 73px;
+      }
+    }
+  }
+
+  .text-outlined {
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+  }
