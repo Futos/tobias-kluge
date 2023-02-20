@@ -141,9 +141,9 @@ hr {
 }
 
 pre {
+  text-align: justify;
   white-space: pre-wrap;
   word-wrap: break-word;
-  text-align: justify;
 }
 
 img {
@@ -763,6 +763,7 @@ select {
 
   a {
     color: $color-white;
+
     &:hover,
     &:focus {
       background-color: transparent;

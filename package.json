@@ -8,13 +8,36 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
     "sass": "^1.58.3",
-    "sass-loader": "^13.2.0"
+    "sass-loader": "^13.2.0",
+    "stylelint": "^15.2.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-scss": "^4.4.0"
   },
   "dependencies": {
     "@storyblok/nuxt": "^5.1.0",
     "axios": "^1.3.3",
     "easings-css": "^2.1.1"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines",
+    "plugins": [
+      "stylelint-scss"
+    ],
+    "rules": {
+      "at-rule-no-unknown": null,
+      "scss/at-rule-no-unknown": true,
+      "selector-class-pattern": null,
+      "max-nesting-depth": null,
+      "selector-max-compound-selectors": 4,
+      "selector-no-qualifying-type": null
+    },
+    "ignoreFiles": [
+      "dist/**",
+      "vendor/**"
+    ]
   }
 }

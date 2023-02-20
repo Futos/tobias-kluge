@@ -1,33 +1,30 @@
 :root {
-    --breakpoint-mobile-horizontal: 480px;
-    --breakpoint-tablet: 768px;
-    --breakpoint-tablet-horizontal: 1024px;
-    --breakpoint-desktop: 1280px;
-    --breakpoint-desktop-wide: 1440px;
-  
-    --container-max-width: 1440px;
-    --container-padding-desktop: 60px;
-    --container-padding-tablet: 40px;
-    --container-padding-mobile: 15px;
-    --content-max-width: 600px;
-    --component-spacing-desktop: 120px;
-    --component-spacing-tablet: 80px;
-    --component-spacing-mobile: 40px;
-    --gutter-width: 24px;
-  
-    --color-brand: hsl(12, 76%, 57%);
-    --color-accent: hsl(280, 44%, 27%);
-    --color-background: #fff;
-    --color-contrast: hsl(212, 9%, 32%);
-    --color-text: hsl(212, 13%, 9%);
-    --color-headline: hsl(212, 13%, 9%);
-    --color-border: #d8d8d8;
-    --color-white: #fff;
-  
-    --color-background-light: #f8f5f2;
-    --color-background-dark: #191a1e;
-    --color-background-hero: var(--color-brand);
-  }
+  --breakpoint-mobile-horizontal: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-tablet-horizontal: 1024px;
+  --breakpoint-desktop: 1280px;
+  --breakpoint-desktop-wide: 1440px;
+  --container-max-width: 1440px;
+  --container-padding-desktop: 60px;
+  --container-padding-tablet: 40px;
+  --container-padding-mobile: 15px;
+  --content-max-width: 600px;
+  --component-spacing-desktop: 120px;
+  --component-spacing-tablet: 80px;
+  --component-spacing-mobile: 40px;
+  --gutter-width: 24px;
+  --color-brand: hsl(12deg 76% 57%);
+  --color-accent: hsl(280deg 44% 27%);
+  --color-background: #fff;
+  --color-contrast: hsl(212deg 9% 32%);
+  --color-text: hsl(212deg 13% 9%);
+  --color-headline: hsl(212deg 13% 9%);
+  --color-border: #d8d8d8;
+  --color-white: #fff;
+  --color-background-light: #f8f5f2;
+  --color-background-dark: #191a1e;
+  --color-background-hero: var(--color-brand);
+}
 
 
 
